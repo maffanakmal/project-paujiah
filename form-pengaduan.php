@@ -52,6 +52,10 @@ $kodeBarang = $huruf . sprintf("%04s", $urutan);
               <input type="text" name="nama_barang" id="nama_barang" class="form-control" required>
           <div>
           <div class="form-group">
+              <label for="nama_barang">jenis Barang</label>
+              <input type="text" name="nama_barang" id="nama_barang" class="form-control" required>
+          <div>
+          <div class="form-group">
               <label for="ket">Keterangan</label>
               <textarea name="ket" id="ket" class="form-control" required></textarea>
           <div>
